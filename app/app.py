@@ -4,7 +4,7 @@ app = Flask(__name__)
 
 @app.route("/")
 def home():
-    return "Hello from Jenkins Terraform Docker Pipeline!"
+    return "Deployment successful"
 
 app.run(
     host="0.0.0.0",
